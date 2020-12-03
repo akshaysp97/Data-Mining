@@ -3,7 +3,7 @@ import pdb
 import bisect
 import collections
 import itertools
-from Association_Rules import get_baskets_python, get_baskets_spark, get_item_dict, filter_basket, inverse_dict, tuple_wrapper, get_possible_k, print_frequent_itemsets
+from Triangular_Matrix_Method import get_baskets_python, get_baskets_spark, get_item_dict, filter_basket, inverse_dict, tuple_wrapper, get_possible_k, print_frequent_itemsets
 
 class FirstList(collections.UserList):
     def __lt__(self, other):
