@@ -44,7 +44,7 @@ def find_all_similiar(shingles, threshold, bucket_list, M, band_hash_size, verif
 	candidate_list = sorted(candidate_list, key=lambda x: (-x[1], x[0][0], x[0][1]))
 	return candidate_list
 
-#python3 Minhashing_Based.py review/sample.txt 5 0.8
+#python3 Minhashing_Based.py sample.txt 5 0.8
 if __name__ == '__main__':
 	filename = sys.argv[1]
 	n_grams = int(sys.argv[2])
