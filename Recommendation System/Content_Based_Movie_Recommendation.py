@@ -56,7 +56,7 @@ def LSH(M, b, r, band_hash_size):
 
 	return bucket_list
 
-# python q2.py movies.csv ratings_train.csv ratings_test.csv ratings_pred.csv
+# python Content_Based_Movie_Recommendation.py movies.csv ratings_train.csv ratings_test.csv ratings_pred.csv
 if __name__ == '__main__':
 	time_start = time.time()
 
