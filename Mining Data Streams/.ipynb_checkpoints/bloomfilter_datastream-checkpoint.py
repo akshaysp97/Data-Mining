@@ -10,7 +10,6 @@ def myhashs(user_str):
     list_a = [23, 37, 43]
     list_b = [19, 89, 113]
     user_val = int(binascii.hexlify(user_str.encode('utf8')), 16)
-    # (ax + b) % m
     for i in range(0, 3):
         for j in range(0, 3):
             result.append((list_a[i] * user_val + list_b[j]) % m)
