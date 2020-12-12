@@ -68,7 +68,7 @@ if __name__ == "__main__":
     filter_array = [0 for i in range(69997)]
     seen_user = set()
 
-    output = "task2_stream.csv"
+    output = "bloomfilter_stream.csv"
     with open(output, 'w') as f:
         f.write("Time,FPR\n")
 
